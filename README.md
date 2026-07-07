@@ -14,6 +14,7 @@ AI-powered customer feedback analyzer built with n8n, Ollama (Llama 3.2), and Go
 4. Store results in Google Sheets
 
 **Architecture diagram**
+
 Customer
    │
    ▼
