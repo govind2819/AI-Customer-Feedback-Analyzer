@@ -12,3 +12,20 @@ AI-powered customer feedback analyzer built with n8n, Ollama (Llama 3.2), and Go
 2. Perform local AI sentiment analysis
 3. Automatically decide discount eligibility
 4. Store results in Google Sheets
+
+**Architecture diagram**
+Customer
+   │
+   ▼
+n8n Form
+   │
+   ▼
+Ollama (Llama3.2)
+   │
+Sentiment Analysis
+   │
+   ▼
+Decision Logic
+   │
+   ▼
+Google Sheets
